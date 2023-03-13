@@ -8927,7 +8927,7 @@ td.actions {
 	padding: 8px 22px;
 	font-size: 0.875rem;
 	line-height: 24px;
-	background-color: #1ABC9C;
+	background-color: #F4B62A;
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -8946,6 +8946,10 @@ body:not(.device-touch) .button {
 	background-color: #444;
 }
 
+.button.button-red2{
+	background-color: #F16042;
+}
+
 .button.button-light {
 	background-color: #EEE;
 	color: #333;
@@ -8953,7 +8957,7 @@ body:not(.device-touch) .button {
 }
 
 .button:hover {
-	background-color: #444;
+	background-color: #1D1D1B;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -16791,4 +16795,44 @@ label.checkbox { padding-left: 20px; }
 	animation-name: fadeOutUpSmall;
 }
 
+.cardhover{
+	color: #1D1D1B;
+	transition: 0.3s;
+}
 
+.cardhover:hover{
+	background-color: #F4B62A;
+	color: #fff;
+}
+
+.cardhover:hover img{
+	filter: grayscale(100%) brightness(200%);
+}
+
+.yellow{
+	color: #F4B62A!important;
+}
+
+.oc-desc{
+	padding: 10px;
+}
+
+.oc-item{
+	position: relative;
+}
+
+.desc{
+	position: absolute;
+	background-color: #fff;
+	z-index: 1000;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+	padding: 10%;
+	text-align: center;
+}
