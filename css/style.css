@@ -3995,7 +3995,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	.sub-menu-container .menu-item:hover > .menu-link {
 		background-color: #F9F9F9;
 		padding-left: 18px;
-		color: #1ABC9C;
+		color: #F4B62A;
 	}
 
 	.menu-link div > i.icon-angle-down {
