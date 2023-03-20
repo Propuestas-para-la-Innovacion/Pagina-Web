@@ -16844,3 +16844,19 @@ label.checkbox { padding-left: 20px; }
 	margin: auto 5%;
 	background-color: #DDE2E7;
 }
+
+.contact_form{
+	width: 100%;
+}
+
+.contact_form input{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
+
+.contact_form textarea{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+}
