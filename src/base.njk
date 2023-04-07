@@ -32,6 +32,16 @@
 </head>
 
 <body class="stretched">
+	<!-- Preloader Start -->
+	<div id="preloader-active">
+		<div class="preloader d-flex align-items-center justify-content-center">
+			<div class="preloader-inner position-relative">
+				<div class="text-center">
+					<img src="/images/red/02_LOGOTIPOS/LOGOTIPOS-17.png" style="width:50%;height:auto;margin:auto" alt="" />
+				</div>
+			</div>
+		</div>
+	</div>
 
 	<!-- Document Wrapper
 	============================================= -->
@@ -154,6 +164,20 @@
     {% endblock %}
 
 	<script>
+      (function ($) {
+        ("use strict");
+        // Page loading
+        $(window).on("load", function () {
+          $("#preloader-active").delay(450).fadeOut("slow");
+          $("body").delay(450).css({
+            overflow: "visible"
+          });
+        });
+      
+      })(jQuery);
+    </script>
+
+	<script>
 		jQuery(document).ready( function($){
 			var elementParent = $('.floating-contact-wrap');
 			$('.floating-contact-btn, .btn-contact').off( 'click' ).on( 'click', function(e) {
@@ -205,6 +229,8 @@
     </script>
     
     <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+
+	
 
 </body>
 
