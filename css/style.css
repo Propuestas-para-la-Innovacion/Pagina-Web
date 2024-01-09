@@ -93,6 +93,26 @@
 	Bootstrap Adjustments
 -----------------------------------------------------------------*/
 
+@font-face {
+	font-family: "Gilroy-Bold";
+	src: url("./css/fonts/Gilroy-Bold.ttf");
+}
+
+@font-face {
+	font-family: "Gilroy-Light";
+	src: url("./css/fonts/Gilroy-Light.ttf");
+}
+
+@font-face {
+	font-family: "Gilroy-Medium";
+	src: url("./css/fonts/Gilroy-Medium.ttf");
+}
+
+@font-face {
+	font-family: "Gilroy-Regular";
+	src: url("./css/fonts/Gilroy-Regular.ttf");
+}
+
 @media (prefers-reduced-motion: no-preference) {
 	:root {
 		scroll-behavior: auto;
@@ -175,7 +195,7 @@ dl, dt, dd, ol, ul, li {
 body {
 	line-height: 1.5;
 	color: #555;
-	font-family: 'Lato', sans-serif;
+	font-family: 'Gilroy-Regular', sans-serif;
 }
 
 a {
@@ -195,6 +215,9 @@ iframe {
 	overflow: hidden !important;
 }
 
+a, p{
+	font-family: "Gilroy-Regular", sans-serif;
+}
 
 /* ----------------------------------------------------------------
 	Basic Layout Styles
@@ -211,7 +234,7 @@ h6 {
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Bold', sans-serif;
 }
 
 h5,
@@ -225,7 +248,8 @@ h3 { font-size: 1.5rem; }
 
 h4 { font-size: 18px; }
 
-h5 { font-size: 0.875rem; }
+h5 { font-size: 0.875rem;
+margin-bottom: 1px; }
 
 h6 { font-size: 12px; }
 
@@ -252,6 +276,11 @@ h6 { font-weight: bold; }
 		font-size: 1rem;
 	}
 
+}
+
+.p-box {
+	font-size: 14px!important;
+	line-height: 16px!important;
 }
 
 h1 > span:not(.nocolor):not(.badge),
@@ -2739,8 +2768,8 @@ img.lazy:not([src]) {
 .section {
 	position: relative;
 	width: 100%;
-	margin: 60px 0;
-	padding: 60px 0;
+	margin: 30px 0;
+	padding: 30px 0;
 	background-color: #F9F9F9;
 	overflow: hidden;
 }
@@ -3623,11 +3652,11 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	line-height: 22px;
 	padding: 14px 5px;
 	color: #444;
-	font-weight: 700;
+	font-weight: 600;
 	font-size: 0.8125rem;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Gilroy-Regular', sans-serif;
 }
 
 .menu-link span {
