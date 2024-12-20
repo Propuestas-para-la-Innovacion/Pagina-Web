@@ -1,6 +1,6 @@
 ---
 title: "Desarrollo Económico Local: El Camino Hacia la Prosperidad"
-image: https://redciudadana.org/assets/img/posts/portal-de-datos-abiertos-finanzas.png
+image: /imagescms/posts/ph_02.png
 description: El desarrollo económico es uno de los motores fundamentales para
   mejorar la calidad de vida de las personas y reducir las brechas de
   desigualdad.
