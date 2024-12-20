@@ -1,6 +1,6 @@
 ---
 title: Salud como Pilar del Desarrollo Sostenible
-image: https://redciudadana.org/assets/img/posts/portal-de-datos-abiertos-finanzas.png
+image: /imagescms/posts/ph_04.png
 description: La salud es uno de los pilares fundamentales para el desarrollo de
   cualquier sociedad. Sin salud, las personas no pueden trabajar, estudiar ni
   contribuir plenamente a sus comunidades.
