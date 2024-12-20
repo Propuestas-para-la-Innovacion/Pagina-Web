@@ -3675,7 +3675,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 
 .menu-item:hover > .menu-link,
 .menu-item.current > .menu-link {
-	color: #F4B62A;
+	color: #24416B;
 }
 
 .menu-item.sub-menu > .menu-link > div { }
@@ -4024,7 +4024,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 	.sub-menu-container .menu-item:hover > .menu-link {
 		background-color: #F9F9F9;
 		padding-left: 18px;
-		color: #F4B62A;
+		color: #24416B;
 	}
 
 	.menu-link div > i.icon-angle-down {
@@ -8957,7 +8957,7 @@ td.actions {
 	padding: 8px 22px;
 	font-size: 0.875rem;
 	line-height: 24px;
-	background-color: #F4B62A;
+	background-color: #24416B;
 	color: #FFF;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -8987,7 +8987,7 @@ body:not(.device-touch) .button {
 }
 
 .button:hover {
-	background-color: #1D1D1B;
+	background-color: #265287;
 	color: #FFF;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
@@ -16827,20 +16827,35 @@ label.checkbox { padding-left: 20px; }
 
 .cardhover{
 	color: #1D1D1B;
-	transition: 0.3s;
+	transition: 0.3s all ease;
 }
 
-.cardhover:hover{
-	background-color: #F4B62A;
+.row > .col-md-3:nth-child(1) .cardhover:hover {
+	background-color: #265287;
 	color: #fff;
 }
-
+  
+.row > .col-md-3:nth-child(2) .cardhover:hover {
+	background-color: #5db2e2;
+	color: #fff;
+}
+  
+.row > .col-md-3:nth-child(3) .cardhover:hover {
+	background-color: #75cff2;
+	color: #fff;
+}
+  
+.row > .col-md-3:nth-child(4) .cardhover:hover {
+	background-color: #6cd8d8;
+	color: #fff;
+}  
+  
 .cardhover:hover img{
 	filter: grayscale(100%) brightness(200%);
 }
 
 .yellow{
-	color: #F4B62A!important;
+	color: #24416B!important;
 }
 
 .oc-desc{
@@ -16913,4 +16928,18 @@ label.checkbox { padding-left: 20px; }
 
 .redes_header{
 	display: flex;
+}
+
+.card-body{
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	padding: 2%;
+}
+
+.card-body p{
+	margin: 0; 
+	text-transform: capitalize; 
+	height: 60px;
+	align-content: center;
 }
