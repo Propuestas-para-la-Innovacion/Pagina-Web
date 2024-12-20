@@ -1,0 +1,70 @@
+---
+permalink: "/novedades/index.html"
+---
+
+{% extends "src/base.njk" %}
+
+{% block head %}
+<title>Propuestas para la Innovación | Novedades</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+{% endblock %}
+
+{% block content %}
+
+		<!-- Content -->
+		<section id="content">
+			<div class="section mt-3 mb-0 pb-0" style="background: #FFF no-repeat 100% 50% / auto 100%;">
+				<div class="container">
+					<div class="row justify-content-center">
+						<div class="col-md-7 center">
+							<div class="heading-block border-bottom-0 mb-0">
+								<h2 class="mb-0 nott yellow">Blogs</h2>
+							</div>
+							<div class="svg-line mb-0">
+								<img src="/images/newelements/03_OTROS ELEMENTOS/WEB_PI-64.png" alt="svg divider" height="20">
+							</div>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolores, quasi, dolorum blanditiis eius laboriosam, quidem temporibus, dolor quod voluptatum perferendis ullam. Odio sequi at dolore consequatur ad, odit expedita tenetur.</p>
+						</div>
+					</div>
+
+					<div class="row">
+						<div class="col-md-12">
+							<div class="posts-container">
+								<div class="row">
+									{% for novedad in collections.novedades %}
+									<div class="col-md-4 my-4">
+										<div class="post-entry">
+											<div class="entry-image">
+												<a href="{{ novedad.url }}"><img src="{{ novedad.data.image }}" alt="Blog Post"></a>
+											</div>
+											<div class="entry-title">
+												<h2><a href="{{ novedad.url }}">{{ novedad.data.title }}</a></h2>
+											</div>
+											<div class="entry-content">
+												<p>{{ novedad.data.description }}</p>
+											</div>
+											<div class="entry-meta">
+												<ul>
+													<li><i class="far fa-calendar-alt"></i> {{ novedad.data.date | dateFormat("DD/MM/YYYY") }}</li>
+													<li><i class="far fa-user"></i> {{ novedad.data.autor }}</li>
+												</ul>
+											</div>
+										</div>
+									</div>
+									{% endfor %}
+								</div>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</section>
+
+
+
+{% endblock %}
+
+{% block body_javascripts %}
+	
+{% endblock %}
