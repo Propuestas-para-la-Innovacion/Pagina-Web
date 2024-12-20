@@ -1,6 +1,6 @@
 ---
 title: "Guatemala 2025: Oportunidades para el Futuro"
-image: https://redciudadana.org/assets/img/posts/portal-de-datos-abiertos-finanzas.png
+image: /imagescms/posts/ph-05.png
 description: Guatemala es un país lleno de potencial, con una riqueza cultural y
   natural inigualable y una población resiliente y creativa.
 autor: Propuestas para la Innovación
