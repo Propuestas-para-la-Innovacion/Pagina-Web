@@ -1,6 +1,6 @@
 ---
 title: "Una Visión Global para Guatemala: Transformando Desafíos en Oportunidades"
-image: https://redciudadana.org/assets/img/posts/portal-de-datos-abiertos-finanzas.png
+image: /imagescms/posts/ph_01.png
 description: Guatemala es un país lleno de contrastes y oportunidades. El Plan
   Estratégico 2024-2028 de Propuestas para la Innovación se presenta como una
   hoja de ruta para abordar estos desafíos.
