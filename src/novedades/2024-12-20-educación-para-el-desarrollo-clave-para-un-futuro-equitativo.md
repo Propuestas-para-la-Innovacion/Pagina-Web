@@ -1,6 +1,6 @@
 ---
 title: "Educación para el Desarrollo: Clave para un Futuro Equitativo"
-image: https://redciudadana.org/assets/img/posts/portal-de-datos-abiertos-finanzas.png
+image: /imagescms/posts/ph_03.png
 description: La educación es uno de los pilares fundamentales para el desarrollo
   de cualquier sociedad. En Guatemala, la educación tiene el poder de
   transformar vidas, reducir desigualdades y abrir puertas a un futuro más
