@@ -113,6 +113,16 @@
 	src: url("./css/fonts/Gilroy-Regular.ttf");
 }
 
+@font-face {
+	font-family: "Grotesk-Bold";
+	src: url("./css/fonts/SpaceGrotesk-Bold.otf");
+}
+
+@font-face {
+	font-family: "Grotesk-Regular";
+	src: url("./css/fonts/SpaceGrotesk-Regular.otf");
+}
+
 @media (prefers-reduced-motion: no-preference) {
 	:root {
 		scroll-behavior: auto;
@@ -166,19 +176,19 @@ dl, dt, dd, ol, ul, li {
 }
 
 ::selection {
-	background: #1ABC9C;
+	background: #5DB2E2;
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-moz-selection {
-	background: #1ABC9C; /* Firefox */
+	background: #5DB2E2; /* Firefox */
 	color: #FFF;
 	text-shadow: none;
 }
 
 ::-webkit-selection {
-	background: #1ABC9C; /* Safari */
+	background: #5DB2E2; /* Safari */
 	color: #FFF;
 	text-shadow: none;
 }
@@ -193,9 +203,9 @@ dl, dt, dd, ol, ul, li {
 
 
 body {
-	line-height: 1.5;
-	color: #555;
-	font-family: 'Gilroy-Regular', sans-serif;
+	line-height: 1.3;
+	color: #19273F;
+	font-family: 'Grotesk-Regular', sans-serif;
 }
 
 a {
@@ -216,7 +226,7 @@ iframe {
 }
 
 a, p{
-	font-family: "Gilroy-Regular", sans-serif;
+	font-family: "Grotesk-Regular", sans-serif;
 }
 
 /* ----------------------------------------------------------------
@@ -230,11 +240,11 @@ h3,
 h4,
 h5,
 h6 {
-	color: #444;
+	color: #24416B;
 	font-weight: 600;
 	line-height: 1.5;
 	margin: 0 0 30px 0;
-	font-family: 'Gilroy-Bold', sans-serif;
+	font-family: 'Grotesk-Bold', sans-serif;
 }
 
 h5,
@@ -3941,7 +3951,7 @@ body:not(.top-search-open) .top-search-parent #primary-menu-trigger {
 		background-color: #FFF;
 		box-shadow: 0px 13px 42px 11px rgba(0, 0, 0, 0.05);
 		border: 1px solid #EEE;
-		border-top: 2px solid #1ABC9C;
+		border-top: 2px solid #5DB2E2;
 		z-index: 399;
 		top: 100%;
 		left: 0;
@@ -5909,7 +5919,7 @@ body:not(.has-plugin-html5video) .video-wrap video {
 }
 
 .slider-caption h2 {
-	font-size: 4rem;
+	font-size: 5rem;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: 700;
@@ -5920,7 +5930,17 @@ body:not(.has-plugin-html5video) .video-wrap video {
 .slider-caption p {
 	margin-top: 30px;
 	margin-bottom: 10px;
-	font-size: 1.5rem;
+	font-size: 1.2rem;
+}
+
+.slider-caption h3 {
+	font-size: 3rem;
+	line-height: 3rem;
+}
+
+.slider-caption h4 {
+	font-size: 3rem;
+	line-height: 3rem;
 }
 
 @media (max-width: 991.98px) {
@@ -7643,7 +7663,6 @@ body:not(.device-touch) .portfolio {
 	margin: 0;
 	font-size: 1.5rem;
 	font-weight: 600;
-	text-transform: uppercase;
 	letter-spacing: 1px;
 }
 
@@ -12863,7 +12882,7 @@ blockquote.float-end {
 	margin: 30px 4px 0 4px;
 	opacity: 0.5;
 	border-radius: 50%;
-	background-color: #1ABC9C;
+	background-color: #444;
 	-webkit-transition: all .3s ease;
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
@@ -12938,7 +12957,7 @@ blockquote.float-end {
 	--owl-nav-sizes: 36px;
 	--owl-dots-gutters: 4px;
 	--owl-dots-sizes: 8px;
-	--owl-nav-bg: var(--themecolor, #1ABC9C);
+	--owl-nav-bg: var(--themecolor, #444);
 	--owl-nav-margin: calc(var(--owl-nav-sizes) / -2);
 	--owl-nav-with-dots: calc( var(--owl-nav-margin) - calc( calc( 30px + var(--owl-dots-sizes) ) / 2 ) );
 }
@@ -16831,7 +16850,7 @@ label.checkbox { padding-left: 20px; }
 }
 
 .row > .col-md-3:nth-child(1) .cardhover:hover {
-	background-color: #265287;
+	background-color: #1E67AF;
 	color: #fff;
 }
   
@@ -16850,9 +16869,9 @@ label.checkbox { padding-left: 20px; }
 	color: #fff;
 }  
   
-.cardhover:hover img{
+/* .cardhover:hover img{
 	filter: grayscale(100%) brightness(200%);
-}
+} */
 
 .yellow{
 	color: #24416B!important;
@@ -16942,4 +16961,17 @@ label.checkbox { padding-left: 20px; }
 	text-transform: capitalize; 
 	height: 60px;
 	align-content: center;
+	text-align: left;
+	font-weight: 100;
+}
+
+.br-responsive{
+	border-right: 1px solid #333;
+}
+
+
+@media (max-width: 1200px) {
+	.br-responsive{
+		border-right: none;
+	}
 }
